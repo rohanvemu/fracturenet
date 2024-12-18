@@ -1,8 +1,18 @@
 # Core dependencies
 streamlit
-torch
+numpy
 pandas
-Pillow
+matplotlib
+Pillow==9.5.0
 ultralytics
-opencv-python-headless
 
+# PyTorch and YOLOv5 dependencies
+torch>=1.10.0,<2.1
+torchvision>=0.11.0,<0.16.0
+opencv-python-headless==4.8.0.74  # Headless version to avoid OpenGL dependency
+PyYAML==6.0
+requests==2.31.0
+
+# Additional utilities
+tqdm==4.66.1
+loguru==0.7.0
