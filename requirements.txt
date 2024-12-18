@@ -7,8 +7,8 @@ Pillow==9.5.0
 ultralytics
 
 # PyTorch and YOLOv5 dependencies
-torch>=1.10.0,<2.1
-torchvision>=0.11.0,<0.16.0
+torch
+torchvision
 opencv-python-headless==4.8.0.74  # Headless version to avoid OpenGL dependency
 PyYAML==6.0
 requests==2.31.0
