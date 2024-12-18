@@ -1,5 +1,14 @@
-pandas
-streamlit
-io
-torch
-PIL
+# Core dependencies
+streamlit==1.25.0
+torch==2.0.1
+pandas==2.1.2
+Pillow==9.5.0
+
+# YOLOv5 specific dependency (ultralytics hub access)
+ultralytics==8.0.172
+
+# For handling downloads and byte-based image manipulations
+iofiles
+
+# For styled DataFrames
+styler
