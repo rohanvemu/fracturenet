@@ -4,5 +4,5 @@ torch
 pandas
 Pillow
 ultralytics
-opencv-python
+opencv-python-headless
 
