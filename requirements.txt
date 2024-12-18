@@ -3,3 +3,5 @@ streamlit
 torch
 pandas
 Pillow
+ultralytics
+opencv-python
